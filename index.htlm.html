@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtuex - Cửa hàng Game Item</title>
+    <link href="styles/defaul.css" type="text/css" rel="stylesheet">
+	<script src="scripst/taitrang.js"></script>
+</head>
+<body>
+    <div class="toan-trang">
+        <!-- Header -->
+        <header class="dau-trang">
+            <div class="logo-chinh">
+                <img src="img/z5964487405751_e0b3f1ff1536c6178086421aa1a5a403.jpg" alt="Virtuex Logo" width="120" height="90">
+                <h1 class="ten-trang">VIRTUEX</h1>
+            </div>
+            <form class="thanh-tim-kiem">
+                <input type="search" name="timkiem" placeholder="Tìm Kiếm..." size="40">
+            </form>
+            <nav class="menu-nguoi-dung">
+                   <a href="#">☰</a>
+                   <a href="#">Đăng Nhập</a>
+                   <a href="#">Đăng Ký</a>
+          </nav>
+        </header>
+
+        <!-- Navigation -->
+      <nav class="menu-chinh">
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Nạp Thẻ</a></li>
+                <li><a href="#">Vòng Quay May Mắn</a></li>
+                <li><a href="#">Cày Thuê</a></li>
+                <li><a href="#">Tin Tức</a></li>
+                <li><a href="#">Shop Game Pass</a></li>
+                <li><a href="#">Hỗ Trợ</a></li>
+                <li><a href="#">Mini Game</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="noi-dung-chinh">
+            <!-- Advertisement -->
+            <section class="quang-cao">
+                <img src="img/quangcao.jpg" alt="Quảng cáo" class="anh-quang-cao">
+            </section>
+
+            <!-- Product Sections -->
+            <section class="phan-san-pham">
+                <h2 class="tieu-de">Shop Acc Game</h2>
+                <ul class="danh-sach-san-pham">
+                    <li class="san-pham">Sản phẩm 1</li>
+                    <li class="san-pham">Sản phẩm 2</li>
+                    <li class="san-pham">Sản phẩm 3</li>
+                </ul>
+            </section>
+
+            <section class="phan-san-pham">
+                <h2 class="tieu-de">Shop Game Pass</h2>
+                <ul class="danh-sach-san-pham">
+                    <li class="san-pham">Sản phẩm 1</li>
+                    <li class="san-pham">Sản phẩm 2</li>
+                    <li class="san-pham">Sản phẩm 3</li>
+                </ul>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="chan-trang">
+            <div class="logo-chan-trang">
+                <img src="img/z5964487405751_e0b3f1ff1536c6178086421aa1a5a403.jpg" alt="Virtuex Logo Footer" width="150" height="100">
+            </div>
+            <div class="thong-tin-chung">
+                <h2>Thông Tin Chung</h2>
+                <p>Virtuex hướng đến việc mang lại trải nghiệm trực tuyến xuất sắc. Sự hài lòng của bạn là ưu tiên hàng đầu...</p>
+            </div>
+            <div class="ho-tro-khach-hang">
+                <h2>Hỗ Trợ Khách Hàng</h2>
+                <p>Virtuex cung cấp dịch vụ hỗ trợ khách hàng 24/7...</p>
+                <ul>
+                    <li>Hỗ trợ qua điện thoại: <strong>1900-123-456</strong></li>
+                    <li>Email: <strong>support@virtuex.com</strong></li>
+                    <li>Chat trực tuyến: Truy cập website</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+	 <button id="chatbot-toggle-btn">Tư vấn</button>
+    <div class="chatbot-popup" id="chatbot-popup">
+        <div class="chat-header">
+            <span> <a href="https://www.thecodinghubs.com/" target="_blank">KẾT NỐI</a></span>
+			<button id="close-btn">&times;</button>
+        </div>
+        <div class="chat-box" id="chat-box">
+			<div id="message-section">
+      <div class="message" id="bot"><span id="bot-response" >Xin chào, tôi có thể giúp gì cho bạn</span></div>
+    </div>
+		</div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Gửi tin nhắn...">
+            <button id="send-btn">gửi</button>
+        </div>
+        <div class="copyright">
+            <a  href="https://www.thecodinghubs.com/" target="_blank"></a>
+        </div>
+    </div>
+</body>
+</html>
